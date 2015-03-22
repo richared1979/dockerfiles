@@ -1,4 +1,4 @@
-FROM scala/activator:1.3.2
+FROM scala/play-app:1.0
 
 RUN cd /opt/ ; git clone https://github.com/richared1979/play-app.git
 
